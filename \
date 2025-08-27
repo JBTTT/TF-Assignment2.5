@@ -1,0 +1,32 @@
+{
+  "jibin-bookinventory": [
+    {
+      "PutRequest": {
+        "Item": {
+          "ISBN":  {"S": "978-0143127550"},
+          "Genre": {"S": "Fiction"},
+          "Title": {"S": "The Alchemist"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ISBN":  {"S": "978-0262033848"},
+          "Genre": {"S": "Computer Science"},
+          "Title": {"S": "Introduction to Algorithms"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "ISBN":  {"S": "978-0596007126"},
+          "Genre": {"S": "Programming"},
+          "Title": {"S": "Head First Design Patterns"}
+        }
+      }
+    }
+  ]
+}
+
